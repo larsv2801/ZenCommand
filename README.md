@@ -25,7 +25,7 @@ Alternatively, you can download the .js file and host it locally.
 
 ---
 
-##Usage
+## Usage
 Basic Setup
 1. Add the following script tag to your HTML:
 ```
