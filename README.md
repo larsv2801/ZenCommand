@@ -28,12 +28,13 @@ Alternatively, you can download the .js file and host it locally.
 ## Usage
 Basic Setup
 1. Add the following script tag to your HTML:
-```
+
+```html
 <script src="larsv2801.github.io/ZenCommand/main.js"></script>
 ```
 2. Call the logMessage() function to display the command panel:
 
-```
+```js
 window.onload = function() {
     ZenCommand.logMessage([
         { label: "Option 1", url: "https://example.com/option1" },
@@ -43,7 +44,7 @@ window.onload = function() {
 ```
 3. define your own function to be executed when an option is selected. The function must be assigned to window.userFunction.
 
-```
+```js
 window.userFunction = function(url) {
     // Custom logic here
     console.log("User selected: " + url);
@@ -60,7 +61,7 @@ By default, the command panel can be toggled using Ctrl + M (or Cmd + M on macOS
 ## Example Code
 Here’s a full example of how to integrate ZenCommand.js into a webpage:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
