@@ -128,7 +128,7 @@
     var visible = 0;
 
         if (typeof window !== 'undefined') {
-        window.myLibrary = {
+        window.ZenCommand = {
             logMessage
         };
         }
