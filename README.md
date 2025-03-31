@@ -19,7 +19,7 @@
 You can link to ZenCommand.js directly from a CDN (hosted on GitHub Pages):
 
 ```html
-<script src="larsv2801.github.io/ZenCommand/main.js"></script>
+<script src="https://larsv2801.github.io/ZenCommand/main.js"></script>
 ```
 Alternatively, you can download the .js file and host it locally.
 
@@ -30,7 +30,7 @@ Basic Setup
 1. Add the following script tag to your HTML:
 
 ```html
-<script src="larsv2801.github.io/ZenCommand/main.js"></script>
+<script src="https://larsv2801.github.io/ZenCommand/main.js"></script>
 ```
 2. Call the logMessage() function to display the command panel:
 
@@ -54,7 +54,7 @@ window.userFunction = function(url) {
 ---
 
 ## Keyboard Shortcut
-By default, the command panel can be toggled using Ctrl + M (or Cmd + M on macOS). This opens the panel and focuses the input bar. Pressing Enter executes the selected option.
+By default, the command panel can be toggled using Ctrl + M (or Cmd + M on macOS). This opens the panel and focuses the input bar.
 
 ---
 
