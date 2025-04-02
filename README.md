@@ -1,3 +1,5 @@
+![Demo Image](https://github.com/larsv2801/ZenCommand/blob/main/ZenCommandDemo.png?raw=true)
+
 # ZenCommand.js
 
 **ZenCommand.js** is a minimalist JavaScript library for creating a command panel interface that can be toggled with a keyboard shortcut. It’s perfect for adding a sleek, simple command input area to your website without the need for complex setups.
