@@ -1,4 +1,4 @@
-![Demo Image](https://github.com/larsv2801/ZenCommand/blob/main/ZenCommandDemo.png?raw=true)
+![Demo Image](https://github.com/larsv2801/ZenCommand/blob/main/ZenCommandDemoImg.png?raw=true)
 
 # ZenCommand.js
 
