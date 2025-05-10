@@ -37,12 +37,12 @@ Basic Setup
 2. Call the logMessage() function to display the command panel:
 
 ```js
-window.onload = function() {
+window.addEventListener("load", function() {
     ZenCommand.logMessage([
         { label: "Option 1", url: "https://example.com/option1" },
         { label: "Option 2", url: "https://example.com/option2" },
     ]);
-};
+});
 ```
 3. define your own function to be executed when an option is selected. The function must be assigned to window.userFunction.
 
@@ -56,7 +56,7 @@ window.userFunction = function(url) {
 ---
 
 ## Keyboard Shortcut
-By default, the command panel can be toggled using Ctrl + M (or Cmd + M on macOS). This opens the panel and focuses the input bar.
+The command panel can be toggled using Ctrl + M (or Cmd + M on macOS). This opens the panel and focuses the input bar.
 
 ---
 
@@ -70,18 +70,20 @@ Here’s a full example of how to integrate ZenCommand.js into a webpage:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZenCommand Example</title>
-    <script src="https://your-username.github.io/ZenCommand.js/zencommand.min.js"></script>
+    <script src="https://larsv2801.github.io/ZenCommand/main.js"></script>
 </head>
 <body>
 
 <script>
-    window.onload = function() {
+    window.addEventListener("load", function() {
         ZenCommand.logMessage([
-            { label: "Home", url: "/home" },
-            { label: "About", url: "/about" },
-            { label: "Contact", url: "/contact" },
-        ]);
-    };
+        { label: 'Home', url: '/home' },
+        { label: 'About Me', url: '/aboutme' },
+        { label: 'Docs', url: '/docs' },
+        { label: 'Portfolio', url: '/portfolio' },
+        { label: 'Projects', url: '/projects' }
+    ]);
+});
 
     window.userFunction = function(url) {
         window.location.href = url;
